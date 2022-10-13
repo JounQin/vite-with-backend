@@ -1,0 +1,41 @@
+{
+  "name": "vite-with-backend",
+  "version": "0.0.0",
+  "description": "A boilerplate of Vite with backend server at the same time",
+  "author": "JounQin <admin@1stg.me>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@1stg/eslint-config": "^5.7.0",
+    "@1stg/prettier-config": "^3.9.2",
+    "@1stg/tsconfig": "^2.3.2",
+    "@babel/core": "^7.19.3",
+    "@types/express": "^4.17.14",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "@types/web": "^0.0.75",
+    "@vitejs/plugin-react": "^2.1.0",
+    "eslint": "^8.25.0",
+    "express": "^4.18.2",
+    "markuplint": "^2.10.1",
+    "prettier": "^2.7.1",
+    "stylelint": "^14.13.0",
+    "tsx": "^3.10.1",
+    "typed-query-selector": "^2.8.0",
+    "typescript": "^4.8.4",
+    "vite": "^3.1.7"
+  },
+  "eslintConfig": {
+    "extends": "@1stg",
+    "rules": {
+      "react/react-in-jsx-scope": "off"
+    }
+  },
+  "prettier": "@1stg/prettier-config"
+}

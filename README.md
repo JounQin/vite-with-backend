@@ -1,2 +1,3 @@
 # vite-with-backend
-A boilplate of Vite with backend server at the same time
+
+A boilerplate of Vite with backend server at the same time
